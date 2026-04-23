@@ -1,0 +1,27 @@
+[
+  {
+    "_type": "category",
+    "_id": "category-organic-fertilizers",
+    "name": "Organic Fertilizers",
+    "slug": { "_type": "slug", "current": "organic-fertilizers" }
+  },
+  {
+    "_type": "category",
+    "_id": "category-bio-pesticides",
+    "name": "Bio Pesticides",
+    "slug": { "_type": "slug", "current": "bio-pesticides" }
+  },
+  {
+    "_type": "product",
+    "_id": "product-biogrow-organic-booster",
+    "name": "BioGrow Organic Booster",
+    "slug": { "_type": "slug", "current": "biogrow-organic-booster" },
+    "category": {
+      "_type": "reference",
+      "_ref": "category-organic-fertilizers"
+    },
+    "description": "A premium organic fertilizer blend designed for higher yield.",
+    "benefits": ["Increases crop productivity", "Enhances soil microflora"],
+    "featured": true
+  }
+]
